@@ -1,4 +1,4 @@
-## Output Flow
+<img width="1849" height="1173" alt="Screenshot 2026-05-03 224943" src="https://github.com/user-attachments/assets/7d2984c6-edc2-4030-ba36-8c2502edfee5" />## Output Flow
 
 The application demonstrates an end-to-end Agentic Developer Portal workflow for repository-based automation. The user begins by selecting a repository from the searchable and filterable repository panel. After selecting a repository, the portal displays key repository insights such as technology stack, pull requests, stars, commit activity, CI status, test coverage, security signals, and agent readiness.
 
@@ -19,12 +19,7 @@ The repository cards also include an Open Repository action. Clicking it opens a
 <img width="689" height="1219" alt="Screenshot 2026-05-03 224052" src="https://github.com/user-attachments/assets/dd3804ff-33be-49bc-88ad-d46dbcf8c321" />
 <img width="679" height="1241" alt="Screenshot 2026-05-03 224132" src="https://github.com/user-attachments/assets/010ed77c-dd4a-48a9-89f8-b4dc97cf1057" />
 <img width="689" height="1262" alt="Screenshot 2026-05-03 224115" src="https://github.com/user-attachments/assets/92661ade-8557-40a2-bbf1-14b0e9b77dde" />
-![Uploading Screenshot 2026-05-03 224132.png…]()
+<img width="1849" height="1173" alt="Screenshot 2026-05-03 224943" src="https://github.com/user-attachments/assets/5cf164a4-b6ec-4fd8-9d61-cdf7c1dac3f3" />
 <img width="1849" height="1173" alt="Screenshot 2026-05-03 224943" src="https://github.com/user-attachments/assets/476e160c-2267-41e5-9d1f-c517699d499e" />
 <img width="1587" height="1080" alt="Screenshot 2026-05-03 225005" src="https://github.com/user-attachments/assets/7e0cdd3c-ad14-4401-a57e-0392fe0a51d5" />
-<img width="1554" height="949" alt="Screenshot 2026-05-04 062024" src="https://github.com/user-attachments/assets/3ca53db8-5d18-4402-9d4a-d895bb035150" />
-
-
-
-
 
