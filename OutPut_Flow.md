@@ -1,4 +1,4 @@
-##Output Flow
+## Output Flow
 
 The application demonstrates an end-to-end Agentic Developer Portal workflow for repository-based automation. The user begins by selecting a repository from the searchable and filterable repository panel. After selecting a repository, the portal displays key repository insights such as technology stack, pull requests, stars, commit activity, CI status, test coverage, security signals, and agent readiness.
 
