@@ -1,0 +1,137 @@
+<svg width="1440" height="1040" viewBox="0 0 1440 1040" fill="none" xmlns="http://www.w3.org/2000/svg" role="img" aria-labelledby="title desc">
+  <title id="title">Agentic Developer Portal desktop workflow wireframe</title>
+  <desc id="desc">Four low to mid fidelity frames showing repository selection, repository insights, agent task selection, and live execution monitoring.</desc>
+  <rect width="1440" height="1040" fill="#F3F5F8"/>
+  <text x="72" y="58" fill="#17212F" font-family="Segoe UI, Arial, sans-serif" font-size="28" font-weight="700">Agentic Developer Portal - End-to-End Workflow Wireframes</text>
+  <text x="72" y="88" fill="#657286" font-family="Segoe UI, Arial, sans-serif" font-size="15">Low/mid-fidelity desktop flow for choosing a repo, reviewing insights, triggering an AI task, and monitoring live progress.</text>
+
+  <defs>
+    <filter id="softShadow" x="-20%" y="-20%" width="140%" height="140%">
+      <feDropShadow dx="0" dy="14" stdDeviation="18" flood-color="#263040" flood-opacity="0.12"/>
+    </filter>
+    <linearGradient id="header" x1="0" x2="1" y1="0" y2="1">
+      <stop offset="0" stop-color="#20242B"/>
+      <stop offset="1" stop-color="#243833"/>
+    </linearGradient>
+    <linearGradient id="selected" x1="0" x2="1" y1="0" y2="1">
+      <stop offset="0" stop-color="#F7FBFF"/>
+      <stop offset="1" stop-color="#F1FBF7"/>
+    </linearGradient>
+  </defs>
+
+  <g filter="url(#softShadow)">
+    <rect x="72" y="130" width="612" height="384" rx="12" fill="#FFFFFF" stroke="#D8DFE8"/>
+    <rect x="72" y="130" width="612" height="54" rx="12" fill="url(#header)"/>
+    <text x="96" y="164" fill="#FFFFFF" font-family="Segoe UI, Arial, sans-serif" font-size="17" font-weight="700">1. Choose a Repository</text>
+    <text x="96" y="206" fill="#657286" font-family="Segoe UI, Arial, sans-serif" font-size="13" font-weight="700">Search and filter</text>
+    <rect x="96" y="222" width="214" height="36" rx="8" fill="#F8FAFC" stroke="#D8DFE8"/>
+    <text x="112" y="245" fill="#657286" font-family="Segoe UI, Arial, sans-serif" font-size="13">Search repositories</text>
+    <rect x="322" y="222" width="112" height="36" rx="8" fill="#F8FAFC" stroke="#D8DFE8"/>
+    <text x="342" y="245" fill="#243143" font-family="Segoe UI, Arial, sans-serif" font-size="13">Status</text>
+    <rect x="446" y="222" width="112" height="36" rx="8" fill="#F8FAFC" stroke="#D8DFE8"/>
+    <text x="466" y="245" fill="#243143" font-family="Segoe UI, Arial, sans-serif" font-size="13">Language</text>
+
+    <rect x="96" y="286" width="245" height="132" rx="10" fill="url(#selected)" stroke="#0A84FF" stroke-width="2"/>
+    <rect x="108" y="300" width="52" height="22" rx="11" fill="#EEF8F5" stroke="#C9E9DF"/>
+    <text x="119" y="316" fill="#17634D" font-family="Segoe UI, Arial, sans-serif" font-size="11" font-weight="700">Healthy</text>
+    <text x="108" y="348" fill="#17212F" font-family="Segoe UI, Arial, sans-serif" font-size="18" font-weight="700">facebook/react</text>
+    <text x="108" y="374" fill="#657286" font-family="Segoe UI, Arial, sans-serif" font-size="13">React library / Public</text>
+    <rect x="108" y="392" width="104" height="28" rx="7" fill="#EAF4FF"/>
+    <text x="122" y="411" fill="#0758B8" font-family="Segoe UI, Arial, sans-serif" font-size="12" font-weight="700">Select repo</text>
+    <text x="236" y="411" fill="#0758B8" font-family="Segoe UI, Arial, sans-serif" font-size="12" font-weight="700">Open repository</text>
+
+    <rect x="356" y="286" width="245" height="132" rx="10" fill="#FFFFFF" stroke="#D8DFE8"/>
+    <rect x="368" y="300" width="78" height="22" rx="11" fill="#FFF7ED" stroke="#FFD3A8"/>
+    <text x="380" y="316" fill="#7B4208" font-family="Segoe UI, Arial, sans-serif" font-size="11" font-weight="700">Attention</text>
+    <text x="368" y="348" fill="#17212F" font-family="Segoe UI, Arial, sans-serif" font-size="18" font-weight="700">fastify/fastify</text>
+    <text x="368" y="374" fill="#657286" font-family="Segoe UI, Arial, sans-serif" font-size="13">Node / API framework</text>
+    <rect x="368" y="392" width="104" height="28" rx="7" fill="#F8FAFC"/>
+    <text x="382" y="411" fill="#4D5A6D" font-family="Segoe UI, Arial, sans-serif" font-size="12" font-weight="700">Select repo</text>
+
+    <rect x="96" y="436" width="245" height="48" rx="8" fill="#FFF1EF" stroke="#FFC7BF"/>
+    <text x="112" y="466" fill="#A02B24" font-family="Segoe UI, Arial, sans-serif" font-size="14" font-weight="700">Critical data repo</text>
+    <rect x="356" y="436" width="245" height="48" rx="8" fill="#F8FAFC" stroke="#D8DFE8"/>
+    <text x="372" y="466" fill="#657286" font-family="Segoe UI, Arial, sans-serif" font-size="14" font-weight="700">More repositories</text>
+  </g>
+
+  <g filter="url(#softShadow)">
+    <rect x="756" y="130" width="612" height="384" rx="12" fill="#FFFFFF" stroke="#D8DFE8"/>
+    <rect x="756" y="130" width="612" height="54" rx="12" fill="url(#header)"/>
+    <text x="780" y="164" fill="#FFFFFF" font-family="Segoe UI, Arial, sans-serif" font-size="17" font-weight="700">2. View Basic Repo Insights</text>
+    <rect x="780" y="214" width="360" height="92" rx="10" fill="url(#selected)" stroke="#D8DFE8"/>
+    <text x="800" y="244" fill="#657286" font-family="Segoe UI, Arial, sans-serif" font-size="12" font-weight="700">REPOSITORY OVERVIEW</text>
+    <text x="800" y="274" fill="#17212F" font-family="Segoe UI, Arial, sans-serif" font-size="24" font-weight="700">facebook/react</text>
+    <text x="800" y="296" fill="#4D5A6D" font-family="Segoe UI, Arial, sans-serif" font-size="13">Public repo / React library / main</text>
+    <rect x="1160" y="214" width="176" height="92" rx="10" fill="#EEF8F5" stroke="#C9E9DF"/>
+    <text x="1196" y="248" fill="#17634D" font-family="Segoe UI, Arial, sans-serif" font-size="12" font-weight="700">AGENT READINESS</text>
+    <text x="1215" y="284" fill="#17212F" font-family="Segoe UI, Arial, sans-serif" font-size="28" font-weight="700">100%</text>
+
+    <rect x="780" y="332" width="128" height="82" rx="10" fill="#F8FAFC" stroke="#D8DFE8"/>
+    <text x="796" y="360" fill="#657286" font-family="Segoe UI, Arial, sans-serif" font-size="12" font-weight="700">CI STATUS</text>
+    <text x="796" y="392" fill="#17212F" font-family="Segoe UI, Arial, sans-serif" font-size="23" font-weight="700">Passing</text>
+    <rect x="924" y="332" width="128" height="82" rx="10" fill="#F8FAFC" stroke="#D8DFE8"/>
+    <text x="940" y="360" fill="#657286" font-family="Segoe UI, Arial, sans-serif" font-size="12" font-weight="700">COVERAGE</text>
+    <text x="940" y="392" fill="#17212F" font-family="Segoe UI, Arial, sans-serif" font-size="23" font-weight="700">100%</text>
+    <rect x="1068" y="332" width="128" height="82" rx="10" fill="#F8FAFC" stroke="#D8DFE8"/>
+    <text x="1084" y="360" fill="#657286" font-family="Segoe UI, Arial, sans-serif" font-size="12" font-weight="700">SECURITY</text>
+    <text x="1084" y="392" fill="#17212F" font-family="Segoe UI, Arial, sans-serif" font-size="23" font-weight="700">0</text>
+    <rect x="1212" y="332" width="128" height="82" rx="10" fill="#F8FAFC" stroke="#D8DFE8"/>
+    <text x="1228" y="360" fill="#657286" font-family="Segoe UI, Arial, sans-serif" font-size="12" font-weight="700">SUCCESS</text>
+    <text x="1228" y="392" fill="#17212F" font-family="Segoe UI, Arial, sans-serif" font-size="23" font-weight="700">100%</text>
+
+    <rect x="780" y="438" width="260" height="46" rx="8" fill="#FFFFFF" stroke="#D8DFE8"/>
+    <text x="800" y="466" fill="#243143" font-family="Segoe UI, Arial, sans-serif" font-size="13" font-weight="700">Insights: release cadence, open PRs, risk</text>
+    <rect x="1060" y="438" width="280" height="46" rx="8" fill="#FFFFFF" stroke="#D8DFE8"/>
+    <text x="1080" y="466" fill="#243143" font-family="Segoe UI, Arial, sans-serif" font-size="13" font-weight="700">Activity: queue related task</text>
+  </g>
+
+  <g filter="url(#softShadow)">
+    <rect x="72" y="582" width="612" height="384" rx="12" fill="#FFFFFF" stroke="#D8DFE8"/>
+    <rect x="72" y="582" width="612" height="54" rx="12" fill="url(#header)"/>
+    <text x="96" y="616" fill="#FFFFFF" font-family="Segoe UI, Arial, sans-serif" font-size="17" font-weight="700">3. Trigger an AI Agent Task</text>
+    <rect x="96" y="668" width="560" height="72" rx="10" fill="url(#selected)" stroke="#C9E9DF"/>
+    <text x="116" y="696" fill="#0758B8" font-family="Segoe UI, Arial, sans-serif" font-size="12" font-weight="700">SELECTED TASK</text>
+    <text x="116" y="724" fill="#17212F" font-family="Segoe UI, Arial, sans-serif" font-size="22" font-weight="700">Run test suite</text>
+    <rect x="494" y="682" width="138" height="42" rx="8" fill="#0A84FF"/>
+    <text x="520" y="708" fill="#FFFFFF" font-family="Segoe UI, Arial, sans-serif" font-size="14" font-weight="700">Run Agent Task</text>
+
+    <rect x="96" y="770" width="168" height="126" rx="10" fill="#FFFFFF" stroke="#0A84FF" stroke-width="2"/>
+    <text x="116" y="800" fill="#17212F" font-family="Segoe UI, Arial, sans-serif" font-size="16" font-weight="700">Run tests</text>
+    <text x="116" y="830" fill="#657286" font-family="Segoe UI, Arial, sans-serif" font-size="12">Unit, integration, smoke</text>
+    <text x="116" y="868" fill="#17634D" font-family="Segoe UI, Arial, sans-serif" font-size="12" font-weight="700">Low risk / 4 min</text>
+    <rect x="282" y="770" width="168" height="126" rx="10" fill="#FFFFFF" stroke="#D8DFE8"/>
+    <text x="302" y="800" fill="#17212F" font-family="Segoe UI, Arial, sans-serif" font-size="16" font-weight="700">Security scan</text>
+    <text x="302" y="830" fill="#657286" font-family="Segoe UI, Arial, sans-serif" font-size="12">Dependency and policy scan</text>
+    <text x="302" y="868" fill="#A02B24" font-family="Segoe UI, Arial, sans-serif" font-size="12" font-weight="700">High risk / 7 min</text>
+    <rect x="468" y="770" width="168" height="126" rx="10" fill="#FFFFFF" stroke="#D8DFE8"/>
+    <text x="488" y="800" fill="#17212F" font-family="Segoe UI, Arial, sans-serif" font-size="16" font-weight="700">Create PR</text>
+    <text x="488" y="830" fill="#657286" font-family="Segoe UI, Arial, sans-serif" font-size="12">Draft branch and notes</text>
+    <text x="488" y="868" fill="#7B4208" font-family="Segoe UI, Arial, sans-serif" font-size="12" font-weight="700">Medium risk / 6 min</text>
+  </g>
+
+  <g filter="url(#softShadow)">
+    <rect x="756" y="582" width="612" height="384" rx="12" fill="#FFFFFF" stroke="#D8DFE8"/>
+    <rect x="756" y="582" width="612" height="54" rx="12" fill="url(#header)"/>
+    <text x="780" y="616" fill="#FFFFFF" font-family="Segoe UI, Arial, sans-serif" font-size="17" font-weight="700">4. Watch Real-Time Agent Progress</text>
+    <rect x="780" y="666" width="248" height="78" rx="10" fill="#EAF4FF" stroke="#C9E3FF"/>
+    <text x="800" y="694" fill="#0758B8" font-family="Segoe UI, Arial, sans-serif" font-size="12" font-weight="700">STATUS</text>
+    <text x="800" y="724" fill="#17212F" font-family="Segoe UI, Arial, sans-serif" font-size="22" font-weight="700">Running - Validating dataset</text>
+    <rect x="1050" y="666" width="286" height="78" rx="10" fill="#F8FAFC" stroke="#D8DFE8"/>
+    <text x="1070" y="694" fill="#657286" font-family="Segoe UI, Arial, sans-serif" font-size="12" font-weight="700">PROGRESS</text>
+    <rect x="1070" y="712" width="224" height="10" rx="5" fill="#D8DFE8"/>
+    <rect x="1070" y="712" width="138" height="10" rx="5" fill="#0A84FF"/>
+    <text x="1304" y="726" fill="#17212F" font-family="Segoe UI, Arial, sans-serif" font-size="13" font-weight="700">62%</text>
+
+    <rect x="780" y="772" width="556" height="128" rx="10" fill="#181C22" stroke="#2B313B"/>
+    <text x="804" y="802" fill="#DDE5EF" font-family="Consolas, monospace" font-size="13">10:12 queued run-tests for datasciencedojo/datasets</text>
+    <text x="804" y="830" fill="#DDE5EF" font-family="Consolas, monospace" font-size="13">10:13 preparing backend run across 892 records</text>
+    <text x="804" y="858" fill="#FFD3A8" font-family="Consolas, monospace" font-size="13">10:14 dataset quality gate failed on row integrity</text>
+    <text x="804" y="886" fill="#FFC7BF" font-family="Consolas, monospace" font-size="13">10:14 stopped before artifacts - retry available</text>
+    <rect x="780" y="920" width="118" height="34" rx="8" fill="#FFFFFF" stroke="#D8DFE8"/>
+    <text x="814" y="942" fill="#243143" font-family="Segoe UI, Arial, sans-serif" font-size="13" font-weight="700">Details</text>
+    <rect x="914" y="920" width="118" height="34" rx="8" fill="#FFFFFF" stroke="#D8DFE8"/>
+    <text x="954" y="942" fill="#243143" font-family="Segoe UI, Arial, sans-serif" font-size="13" font-weight="700">Retry</text>
+    <rect x="1050" y="920" width="286" height="34" rx="8" fill="#EEF8F5" stroke="#C9E9DF"/>
+    <text x="1072" y="942" fill="#17634D" font-family="Segoe UI, Arial, sans-serif" font-size="13" font-weight="700">Retry completes and produces artifacts</text>
+  </g>
+</svg>
